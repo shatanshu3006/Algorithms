@@ -41,7 +41,7 @@ void merge(int array[],int left, int mid, int right){
     int i=0; int j=0; int k=left;
     // Merging the two subarrays into the original array
     while(i<left_size && j<right_size){
-        if(left_array[i]<right_array[j]){
+        if(left_array[i]<=right_array[j]){
             array[k]=left_array[i];
             i++;
         }
@@ -66,7 +66,7 @@ void merge(int array[],int left, int mid, int right){
 }
 
 void mergesort(int array[],int left, int right){
-    if(left<=right){
+    if(left>=right){
         return;
     }
     else{
