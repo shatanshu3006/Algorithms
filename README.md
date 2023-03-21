@@ -5,4 +5,5 @@ MERGE SORT ALGORITHM
 https://www.geeksforgeeks.org/merge-sort/
 
 SELECTION SORT ALGORITHM
+https://www.geeksforgeeks.org/selection-sort/
 
